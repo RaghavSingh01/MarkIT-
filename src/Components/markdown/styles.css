@@ -1,0 +1,106 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: #1E1E1E;
+    color: #D4D4D4;
+}
+.center-div{
+    
+    margin: 80px;
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    
+    justify-content: space-between;
+    /* border: 2px solid #5A5A5A; */
+}
+.left-side{
+    padding: 10px;
+    width: 48%;
+    border-radius: 3px;
+    background-color: #2B2B3B;
+    color: #E0E0E0;
+    border: 1px solid #5A5A5A;
+}
+.right-side{
+    padding-top: 5px;
+    padding: 5px;
+    width: 48%;
+    border-radius: 3px;
+    background-color: #4B4B4B;
+    color: #CCCCCC;
+    border: 1px solid #5A5A5A;
+}
+
+.Title{
+   
+    text-align: center;
+    margin: 0px;
+}
+.Sitename{
+    margin-bottom: 0px;
+}
+.Sitesubname{
+    margin-top: 0px;
+}
+.About{
+    padding: 5px;
+    width: 40vw;
+}
+p{
+    margin: 0px;
+}
+.clear-button {
+    margin: 20px 0; /* Add some margin around the button */
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .clear-button button {
+    background-color: #ff4c4c; /* Red background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for size */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    
+  }
+  
+  .clear-button button:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+  }
+  /* Styles for Markdown Tables */
+table {
+    width: 100%; /* Make the table take the full width */
+    border-collapse: collapse; /* Collapse borders */
+    margin: 20px 0; /* Margin for spacing */
+  }
+  
+  th, td {
+    border: 1px solid #ccc; /* Add borders to table cells */
+    padding: 8px; /* Add padding for better spacing */
+    text-align: left; /* Align text to the left */
+  }
+  
+  th {
+    background-color: #2B2B3B; /* Light gray background for table headers */
+  }
+  mark{
+    background-color: lightblue;
+    color: #1E1E1E;
+  }
+  blockquote{
+    border-left: 3px solid #3498db;
+    padding-left: 2px;
+  }
+  /* Other styles for your application */
+  
