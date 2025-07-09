@@ -4,8 +4,8 @@ MarkIT is a simple, lightweight Markdown editor built using **React**. It allows
 
 ## 🚀 Live Demo
 
-👉 [Check out the live site here](https://your-deployed-site-link.com)  
-*(Replace with your actual deployed link)*
+👉 [Check out the live site here](https://markdownbyraghav.netlify.app/)  
+
 
 ---
 
@@ -17,36 +17,37 @@ To run this project on another machine, follow these steps:
 ```bash
 git clone https://github.com/RaghavSingh01/MarkIT.git
 cd MarkIT
-
+```
 
 ### 2. Install dependencies
 Make sure you have Node.js and npm installed
 
 ```bash
 npm install
-
+```
 ### 3. Start the development server
 
 ```bash
 npm start
-
+```
 This will start the app in development mode.
 Open http://localhost:3000 to view it in your browser.
 
-✨ Features
-📝 Live Markdown-to-HTML preview
 
-🔄 Synchronized editing and preview panel
+## ✨ Features
+- 📝 Live Markdown-to-HTML preview
 
-📱 Responsive and user-friendly design
+- 🔄 Synchronized editing and preview panel
 
-⚡ Lightweight and fast performance
+- 📱 Responsive and user-friendly design
 
-🛠️ Technologies Used
-React.js
+- ⚡ Lightweight and fast performance
 
-HTML5 & CSS3
+## 🛠️ Technologies Used
+- React.js
 
-JavaScript
+- HTML5 & CSS3
 
-Markdown-it (for Markdown parsing)
+- JavaScript
+
+- Markdown-it (for Markdown parsing)
